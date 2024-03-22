@@ -8,7 +8,7 @@ init()
 
 n = Fore.RESET
 lg = Fore.LIGHTGREEN_EX
-rs = Fore.RED
+r = Fore.RED
 w = Fore.WHITE
 cy = Fore.CYAN
 ye = Fore.YELLOW
@@ -34,8 +34,8 @@ def banner():
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
     print('Contact below address for get premium script')
-    print(f'{lg}Version: {w}2.0{lg} | GitHub: {w}@saifalisew1508{rs}')
-    print(f'{lg}Telegram: {w}@DearSaif{lg} | Instagram: {w}@_Prince.Babu_{rs}')
+    print(f'{lg}Version: {w}2.0{lg} | GitHub: {w}@saifalisew1508{r}')
+    print(f'{lg}Telegram: {w}@DearSaif{lg} | Instagram: {w}@_Prince.Babu_{r}')
 
 def clr():
     if os.name == 'nt':
