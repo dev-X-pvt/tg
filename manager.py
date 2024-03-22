@@ -8,7 +8,7 @@ init()
 
 n = Fore.RESET
 lg = Fore.LIGHTGREEN_EX
-r = Fore.RED
+rs = Fore.RED
 w = Fore.WHITE
 cy = Fore.CYAN
 ye = Fore.YELLOW
